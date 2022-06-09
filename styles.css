@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+}
+
+.background {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+.overlay {
+    width: 80%;
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+}
+
+.box1 {
+    flex-wrap: wrap;
+    display: flex;
+    background: gray;
+    height: 40px;
+}
+
+
+.fecha {
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+
+.bogota {
+    color: aliceblue;
+    display: flex;
+    margin-left: 60px;
+    align-items: center;
+}
+
+.ciudad {
+    margin-left: 140px;
+    align-items: center;
+}
+
+.registro {
+    margin-top: -32px;
+    display: flex;
+    align-items: center;
+    margin-left: 752px;
+}
+
+.reg {
+    color: aliceblue;
+    display: contents;
+}
+
+.ing {
+    color: aliceblue;
+    margin-left: 18px;
+}
+
+.ciudades {
+    margin-top: 10px;
+    margin-bottom: auto;
+    margin-left: 24px;
+}
+
+.box2 {
+    display: flex;
+    background: rgb(31, 31, 94);
+    height: 101px;
+    color: white;
+    align-items: center;
+    list-style: none;
+    padding: 12px;
+}
+
+.logo-nav-container {
+    display: flex;
+    height: 90px;
+    width: 119px;
+    align-items: center;
+}
+
+.ima2 {
+    height: 44px;
+}
+.menu {
+    font-size: small;
+    color: white;
+    display: flex;
+    position:absolute;
+    margin-left: 271px;
+}
+
+.menu {
+    display: inline-block;
+}
+
+.header {
+    display: flex;
+    list-style: none;
+}
+
+
+.peliculas {
+    margin-left: 18px;
+    height: 15px;
+    padding-top: 13px;
+    display: flex;
+}
+
+.box3 {
+    background: gainsboro;
+    height: 54px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.log2 {
+    margin-top: 10px;
+}
+
+
+.x{
+    margin-left: 379px;   
+}
+
+.sel {
+    display: flex;
+    margin-left: 449px;
+    margin-top: -19px;
+}
+
+.sel1 {
+    display: inline-flex;
+    margin-left: 717px;
+}
+
+
+.movie {
+    height: 0px;
+    display: flex;
+    justify-content: center;
+    margin-left: 333px;
+    margin-top: -18px;
+}
